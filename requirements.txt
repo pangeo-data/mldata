@@ -1,0 +1,4 @@
+sphinx
+sphinx_bootstrap_theme
+sphinx_pangeo_theme
+myst-parser

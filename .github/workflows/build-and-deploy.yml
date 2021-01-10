@@ -1,0 +1,32 @@
+name: Build and Deploy
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2 # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v1
+        with:
+          python-version: '3.8'
+          architecture: 'x64'
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
+      - name: Build Sphinx HTML
+        run: make html
+      - name: Deploy 🚀
+        if: github.ref == 'refs/heads/master'
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: _build/html
+          DEBUG: true
