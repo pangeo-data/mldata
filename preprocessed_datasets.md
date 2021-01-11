@@ -21,6 +21,12 @@ This is a list of weather and climate datasets preprocessed for AI research. Thi
 - *Source data*: Climate Model simulations and expert labels
 - *Description*: Detect atmospheric rivers and tropical cyclones from climate model simulations. Tool for labeling along with dataset of expert labelled data.
 
+### CUMULO: a benchmark dataset for training and evaluating global cloud classification models
+- *Paper*: [https://arxiv.org/abs/1911.04227](https://arxiv.org/abs/1911.04227)
+- *Code and data*: [https://github.com/FrontierDevelopmentLab/CUMULO](https://github.com/FrontierDevelopmentLab/CUMULO)
+- *Source data*: [Moderate Resolution Imaging Spectroradiometer (MODIS) from Aqua satellite](https://modis.gsfc.nasa.gov/about/) and [2B-CLDCLASS-LIDAR](http://www.cloudsat.cira.colostate.edu/data-products/level-2b/2b-cldclass-lidar)
+- *Description*: the dataset provides the global 1km-resolution imagery of the MODIS aligned with the accurately measured cloud properties of the CloudSat products.  It contains three years of 1354 x 2030 pixel hyperspectral images combined with pixel-width ‘tracks’ of cloud labels, corresponding to the eight World Meteorological Organization genera.
+
 ### Deepti: Deep-Learning-Based Tropical Cyclone Intensity Estimation System (+ Competition)
 - *Paper*: [http://doi.org/10.1109/JSTARS.2020.3011907](http://doi.org/10.1109/JSTARS.2020.3011907)
 - *Competition*: [https://www.drivendata.org/competitions/72/predict-wind-speeds/page/274/](https://www.drivendata.org/competitions/72/predict-wind-speeds/page/274/)
