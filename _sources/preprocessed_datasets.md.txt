@@ -21,6 +21,12 @@ This is a list of weather and climate datasets preprocessed for AI research. Thi
 - *Source data*: Climate Model simulations and expert labels
 - *Description*: Detect atmospheric rivers and tropical cyclones from climate model simulations. Tool for labeling along with dataset of expert labelled data.
 
+### CloudCast: A large-scale dataset and baseline for forecasting clouds
+- *Paper*: [https://arxiv.org/abs/2007.07978](https://arxiv.org/abs/2007.07978)
+- *Code and data*: [https://vision.eng.au.dk/cloudcast-dataset/](https://vision.eng.au.dk/cloudcast-dataset/)
+- *Source data*: Meteosat-11 with cloud types annotated on a pixel-level 
+- *Description*: The CloudCast dataset contains 70080 images with 10 different cloud types for multiple layers of the atmosphere annotated on a pixel level. The dataset has a spatial size of 928 x 1530 pixels recorded with 15-min intervals for the period 2017-2018, with a 3.0 km resolution.
+
 ### CUMULO: a benchmark dataset for training and evaluating global cloud classification models
 - *Paper*: [https://arxiv.org/abs/1911.04227](https://arxiv.org/abs/1911.04227)
 - *Code and data*: [https://github.com/FrontierDevelopmentLab/CUMULO](https://github.com/FrontierDevelopmentLab/CUMULO)
