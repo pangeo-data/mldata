@@ -15,6 +15,13 @@ This is a list of weather and climate datasets preprocessed for AI research. Thi
 - *Source data*: GEFS forecasts and Mesonet solar observations
 - *Description*: Predict total daily solar irradiance from GEFS and Oklahoma Mesonet Data
 
+### CAMELS: CATCHMENT ATTRIBUTES AND METEOROLOGY FOR LARGE-SAMPLE STUDIES
+- *Data*: [https://ral.ucar.edu/solutions/products/camels](https://ral.ucar.edu/solutions/products/camels)
+- *Paper*: [https://ncar.github.io/hydrology/datasets/CAMELS_timeseries](https://ncar.github.io/hydrology/datasets/CAMELS_timeseries)
+- *Source data*: Weather models (Daymet, NLDAS, Maurer), streamflow observations (USGS), catchment attributes (USGS, MODIS, Daymet, STATSGO, Global Lithological Map (GLiM), GLobal Hydrogeology Maps (GLHYMPS))
+- *Description*: Weather drivers, streamflow observations, and catchment attributes for 671 catchments across the continental US.
+- *Papers using this dataset*: [https://doi.org/10.5194/hess-22-6005-2018](https://doi.org/10.5194/hess-22-6005-2018), [https://doi.org/10.1029/2019WR026793](https://doi.org/10.1029/2019WR026793)
+
 ### ClimateNet: an expert-labelled open dataset and Deep Learning architecture for enabling high-precision analyses of extreme weather
 - *Paper*: [https://gmd.copernicus.org/preprints/gmd-2020-72/](https://gmd.copernicus.org/preprints/gmd-2020-72/)
 - *Code and data*: [https://portal.nersc.gov/project/ClimateNet/](https://portal.nersc.gov/project/ClimateNet/)
