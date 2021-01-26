@@ -15,6 +15,14 @@ This is a list of weather and climate datasets preprocessed for AI research. Thi
 - *Source data*: GEFS forecasts and Mesonet solar observations
 - *Description*: Predict total daily solar irradiance from GEFS and Oklahoma Mesonet Data
 
+
+### AQ-Bench: A Benchmark Dataset for Machine Learning on Global Air Quality Metrics 
+- *Paper*: Betancourt, C., Stomberg, T., Stadtler, S., Roscher, R., and Schultz, M. G.: AQ-Bench: A Benchmark Dataset for Machine Learning on Global Air Quality Metrics, Earth Syst. Sci. Data Discuss. (preprint), [https://doi.org/10.5194/essd-2020-380](https://doi.org/10.5194/essd-2020-380), in review, 2021. 
+- *Code and data*: [https://gitlab.version.fz-juelich.de/toar/ozone-mapping](https://gitlab.version.fz-juelich.de/toar/ozone-mapping) and [https://doi.org/10.23728/b2share.30d42b5a87344e82855a486bf2123e9f](https://doi.org/10.23728/b2share.30d42b5a87344e82855a486bf2123e9f)
+- *Source data*: Database of the Tropospheric Ozone Assessment Report (TOAR)
+- *Description*: Aggregated air quality data from the years 2010–2014 and metadata at more than 5500 air quality monitoring stations all over the world. A well-defined task, a suitable evaluation metric and baseline scores are provided.
+
+
 ### CAMELS: CATCHMENT ATTRIBUTES AND METEOROLOGY FOR LARGE-SAMPLE STUDIES
 - *Data*: [https://ral.ucar.edu/solutions/products/camels](https://ral.ucar.edu/solutions/products/camels)
 - *Paper*: [https://ncar.github.io/hydrology/datasets/CAMELS_timeseries](https://ncar.github.io/hydrology/datasets/CAMELS_timeseries)
