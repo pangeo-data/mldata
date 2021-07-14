@@ -17,7 +17,7 @@ This is a list of weather and climate datasets preprocessed for AI research. Thi
 
 
 ### AQ-Bench: A Benchmark Dataset for Machine Learning on Global Air Quality Metrics 
-- *Paper*: Betancourt, C., Stomberg, T., Stadtler, S., Roscher, R., and Schultz, M. G.: AQ-Bench: A Benchmark Dataset for Machine Learning on Global Air Quality Metrics, Earth Syst. Sci. Data Discuss. (preprint), [https://doi.org/10.5194/essd-2020-380](https://doi.org/10.5194/essd-2020-380), in review, 2021. 
+- *Paper*: Betancourt, C., Stomberg, T., Roscher, R., Schultz, M. G., and Stadtler, S.: AQ-Bench: a benchmark dataset for machine learning on global air quality metrics, Earth Syst. Sci. Data, 13, 3013–3033, [https://doi.org/10.5194/essd-13-3013-2021](https://doi.org/10.5194/essd-13-3013-2021), 2021.
 - *Code and data*: [https://gitlab.version.fz-juelich.de/toar/ozone-mapping](https://gitlab.version.fz-juelich.de/toar/ozone-mapping) and [https://doi.org/10.23728/b2share.30d42b5a87344e82855a486bf2123e9f](https://doi.org/10.23728/b2share.30d42b5a87344e82855a486bf2123e9f)
 - *Source data*: Database of the Tropospheric Ozone Assessment Report (TOAR)
 - *Description*: Aggregated air quality data from the years 2010–2014 and metadata at more than 5500 air quality monitoring stations all over the world. A well-defined task, a suitable evaluation metric and baseline scores are provided.
