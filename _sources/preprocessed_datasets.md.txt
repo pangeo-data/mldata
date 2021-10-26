@@ -142,7 +142,12 @@ Presented along an efficient dataloading pipeline: Pyrain
 - *Description*: Benchmark dataset for medium-range (3 and 5 day) forecasting of global pressure, temperature and precipitation with preprocessed data (40 years), evaluation and baselines
 - *Papers using this dataset*: <a href="https://arxiv.org/abs/2003.11927">https://arxiv.org/abs/2003.11927</a>, <a href="https://arxiv.org/abs/2008.08626">https://arxiv.org/abs/2008.08626</a>
 
-
+### s2s-ai-challenge
+- *Paper*: 
+- *Code and data*: https://renkulab.io/projects/aaron.spring/s2s-ai-challenge-template/
+- *Source data*: https://github.com/ecmwf-lab/climetlab-s2s-ai-challenge
+- *Description*: https://s2s-ai-challenge.github.io/
+- *Papers using this dataset*:
 
 
 
