@@ -143,9 +143,9 @@ Presented along an efficient dataloading pipeline: Pyrain
 - *Papers using this dataset*: <a href="https://arxiv.org/abs/2003.11927">https://arxiv.org/abs/2003.11927</a>, <a href="https://arxiv.org/abs/2008.08626">https://arxiv.org/abs/2008.08626</a>
 
 ### s2s-ai-challenge
-- *Paper*: 
+- *Paper*: [BAMS](https://journals.ametsoc.org/view/journals/bams/103/12/BAMS-D-22-0046.1.xml)
 - *Code and data*: https://renkulab.io/projects/aaron.spring/s2s-ai-challenge-template/
-- *Source data*: https://github.com/ecmwf-lab/climetlab-s2s-ai-challenge
+- *Source data*: S2S access via [climetlab-s2s-ai-challenge](https://github.com/ecmwf-lab/climetlab-s2s-ai-challenge)
 - *Description*: https://s2s-ai-challenge.github.io/
 - *Papers using this dataset*:
 
